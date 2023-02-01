@@ -1,5 +1,14 @@
-# How To Install
+# Collection of Python 3.9 wheels for armv7l:
 
+This repository contains any precompiled wheels that my Banana Pi R2 router has compiled in a separate compilation environment.  
+These wheels are used for projects:
+- [MITMProxy v9.0.1](https://mitmproxy.org/)
+- [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert)
+
+# Installation Directions:
+
+## MITMProxy 9.0.1
+<details>
 Install necessary packages:
 ```bash
 apt install -y --no-install-recommends python3-pip python3-venv
@@ -30,3 +39,5 @@ Install the precompiled wheels:
 ```bash
 python3 -m pip install --no-index --find-links=/tmp/wheels/mitmproxy mitmproxy
 ```
+</details>
+
